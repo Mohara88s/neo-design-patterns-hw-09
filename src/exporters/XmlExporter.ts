@@ -22,7 +22,7 @@ export class XmlExporter extends DataExporter {
 
 	// TODO afterRender
 	protected afterRender(): void {
-		this.result += `\\n<!-- Експорт згенеровано: ${new Date().toISOString()} -->`;
+		this.result += `\n<!-- Експорт згенеровано: ${new Date().toISOString()} -->`;
 	}
 
 	protected save(): void {
